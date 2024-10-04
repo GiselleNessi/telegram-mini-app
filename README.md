@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+# Telegram Mini App Quiz built with Thirdweb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Telegram Mini App Quiz** built with **Thirdweb**, using **React**, **TypeScript**, and **Vite**. It allows users to participate in a blockchain-related quiz and claim token rewards.
 
-Currently, two official plugins are available:
+You can interact with the quiz through the **Telegram bot**:  
+[Telegram Bot Link](https://t.me/thirdwebQuiz_bot/telegramQuiz)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tools and Technologies Used
 
-## Expanding the ESLint configuration
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: Adds static typing to JavaScript.
+- **Vite**: A fast build tool that provides hot module replacement (HMR) for development.
+- **Thirdweb**: Web3 tools for building blockchain applications and interacting with smart contracts.
+- **Telegram Bot**: Created using [BotFather](https://telegram.me/BotFather).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Plugins
 
-- Configure the top-level `parserOptions` property like this:
+This project uses the following official plugins:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) for Fast Refresh using Babel
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) for Fast Refresh using SWC
