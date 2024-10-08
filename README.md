@@ -5,7 +5,9 @@ This project is a **Telegram Mini App Quiz** built with **Thirdweb**, using **Re
 You can interact with the quiz through the **Telegram bot**:  
 [Telegram Bot Link](https://t.me/thirdwebQuiz_bot/telegramQuiz)
 
-[Mini app public web URL](https://b534-2a0c-5a82-3400-6200-e8e8-293-8762-5b6.ngrok-free.app/)
+[How to Build a Web3 Telegram Mini App full guide](https://blog.thirdweb.com/guides/build-web3-telegram-mini-game/)
+
+[Thirdweb Docs](https://portal.thirdweb.com/)
 
 ## Tools and Technologies Used
 
