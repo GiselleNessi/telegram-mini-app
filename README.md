@@ -3,6 +3,7 @@
 This project is a **Telegram Mini App Quiz** built with **Thirdweb**, using **React**, **TypeScript**, and **Vite**. It allows users to participate in a blockchain-related quiz and claim token rewards.
 
 You can interact with the quiz through the **Telegram bot**:  
+
 [Telegram Bot Link](https://t.me/thirdwebQuiz_bot/telegramQuiz)
 
 [How to Build a Web3 Telegram Mini App full guide](https://blog.thirdweb.com/guides/build-web3-telegram-mini-game/)
